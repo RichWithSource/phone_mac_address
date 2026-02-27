@@ -1,5 +1,5 @@
 function button_click() {
-    const name = document.getElementById("txtbox").textContent;
+    const name = document.getElementById("txtbox").textContent();
     if(name == " " || name == null){
         window.alert('Error please enter your name')
     }
