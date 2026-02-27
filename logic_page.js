@@ -34,7 +34,7 @@ function button_click(name) {
     else {
         window.alert(name.value + " " + uuid);
         const log_content = name.value + "--" + uuid
-        updateGitHubFile('RichWithSource','phone_mac_address','phone_mac_address/list_name.txt','Text Update',log_content)
+        updateGitHubFile('RichWithSource','phone_mac_address','RichWithSource/phone_mac_address/list_name.txt','Text Update',log_content)
     }
     
 }
