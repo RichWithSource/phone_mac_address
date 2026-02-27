@@ -1,18 +1,15 @@
 //const uuid = crypto.randomUUID()
 //window.alert(uuid)
 
-function button_click() {
-    const name = document.getElementById('txtbox').value();
-    if(name == " " || name == null){
-        window.alert("Error please enter your name")
+function button_click(name) {
+    if(name.value == "Name"){
+        name.value = "Error please enter your name"
+        window.alert(name.value)
     }
     else {
-        button_clicked(name);
+        window.alert(name.value);
     }
     
 }
 
-function button_clicked(a) {
-    window.alert(a);
-}
 
